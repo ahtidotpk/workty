@@ -255,3 +255,12 @@ a:visited {
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
 }
+
+@media (max-width:1000px){
+body{
+  flex-direction: column-reverse;
+}
+#width{
+  height: 50vh;
+}
+}
