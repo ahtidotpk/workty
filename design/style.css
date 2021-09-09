@@ -256,11 +256,23 @@ a:visited {
   border-left: 5px solid var(--color-brand--1);
 }
 
-@media (max-width:1000px){
-body{
-  flex-direction: column-reverse;
-}
-#width{
-  height: 50vh;
-}
+@media (max-width: 1000px) {
+  body {
+    flex-direction: column-reverse;
+  }
+  
+  #width {
+    height: 50vh;
+  }
+  .sidebar{
+    height: 35rem;
+    flex-basis: unset;
+    padding:0 2rem;
+  }
+  .btn{
+    margin-top: 1rem;
+  }
+  .workout{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
